@@ -70,4 +70,5 @@ var stack = new[]
 
 *Always looking for the next interesting technology to pull into the stack.*
 
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/fenixkitdev) [![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white)](https://tiktok.com/@fenixkitdev) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:fenixkitdev@gmail.com) 
 </div>
