@@ -31,7 +31,7 @@ That became **FenixKit** — .NET 8 Minimal API starter kits you clone, configur
 
 The clean foundation. MongoDB persistence, ErrorOr result pattern, dual pagination, hook-based repository, global error handling, health checks, and Docker Compose — all pre-wired.
 
-**€35** &nbsp;·&nbsp; [**Buy now →**](https://store.fenixkit.dev)
+**€35** &nbsp;·&nbsp; [**Buy now →**](https://fenixkit.dev)
 
 </td>
 <td width="50%" valign="top">
@@ -42,7 +42,7 @@ The clean foundation. MongoDB persistence, ErrorOr result pattern, dual paginati
 
 Everything in the MongoDB kit, plus a full tag-based Redis cache-aside layer. FailOpen by default — Redis down means a cache miss, not a 500. Works with Redis 8 and Valkey 7.2.
 
-**€45** &nbsp;·&nbsp; [**Buy now →**](https://store.fenixkit.dev/redis)
+**€45** &nbsp;·&nbsp; [**Buy now →**](https://fenixkit.dev)
 
 </td>
 </tr>
@@ -55,7 +55,7 @@ Everything in the MongoDB kit, plus a full tag-based Redis cache-aside layer. Fa
 
 Everything in the MongoDB kit, plus Keycloak JWT authentication pre-configured via OIDC. Role-based policies, OAuth2 PKCE in Swagger, and a pre-built realm — working from the first `docker compose up`.
 
-**€45** &nbsp;·&nbsp; [**Buy now →**](https://store.fenixkit.dev/keycloak)
+**€45** &nbsp;·&nbsp; [**Buy now →**](https://fenixkit.dev)
 
 </td>
 <td width="50%" valign="top">
@@ -66,7 +66,7 @@ Everything in the MongoDB kit, plus Keycloak JWT authentication pre-configured v
 
 The full stack. Auth, cache, and persistence — all pre-wired and ready. Keycloak JWT, tag-based Redis invalidation, and a pre-built realm. One `docker compose up` starts everything.
 
-**€55** &nbsp;·&nbsp; [**Buy now →**](https://store.fenixkit.dev/keycloak-redis)
+**€55** &nbsp;·&nbsp; [**Buy now →**](https://fenixkit.dev)
 
 </td>
 </tr>
