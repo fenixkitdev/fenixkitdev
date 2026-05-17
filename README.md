@@ -13,7 +13,7 @@
 
 I've been building software professionally for a few years and my stack of choice has always gravitated towards **C# and .NET**. I enjoy picking up new technologies — if something looks promising, I'll usually find an excuse to try it.
 
-One thing I noticed early on: a lot of the time writing a new API is spent wiring up the same infrastructure decisions. MongoDB setup, result patterns, pagination, error handling, auth — it's not hard, but it's slow, repetitive, and easy to get subtly wrong. So I started building **templates that cut that work out entirely**.
+One thing I noticed early on: a lot of the time writing a new API is spent wiring up the same infrastructure decisions. MongoDB setup, result patterns, pagination, error handling, auth, caching — it's not hard, but it's slow, repetitive, and easy to get subtly wrong. So I started building **templates that cut that work out entirely**.
 
 That became **FenixKit** — .NET 8 Minimal API starter kits you clone, configure, and ship.
 
@@ -36,6 +36,19 @@ The clean foundation. MongoDB persistence, ErrorOr result pattern, dual paginati
 </td>
 <td width="50%" valign="top">
 
+### ⚡ MongoDB + Redis
+
+**.NET 8 Minimal API Starter Kit — MongoDB + Redis**
+
+Everything in the MongoDB kit, plus a full tag-based Redis cache-aside layer. FailOpen by default — Redis down means a cache miss, not a 500. Works with Redis 8 and Valkey 7.2.
+
+**€45** &nbsp;·&nbsp; [**Buy now →**](https://store.fenixkit.dev/redis)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 ### 🔐 MongoDB + Keycloak
 
 **.NET 8 Minimal API Starter Kit — MongoDB + Keycloak**
@@ -45,10 +58,21 @@ Everything in the MongoDB kit, plus Keycloak JWT authentication pre-configured v
 **€45** &nbsp;·&nbsp; [**Buy now →**](https://store.fenixkit.dev/keycloak)
 
 </td>
+<td width="50%" valign="top">
+
+### 🔐 ⚡ MongoDB + Keycloak + Redis
+
+**.NET 8 Minimal API Starter Kit — MongoDB + Keycloak + Redis**
+
+The full stack. Auth, cache, and persistence — all pre-wired and ready. Keycloak JWT, tag-based Redis invalidation, and a pre-built realm. One `docker compose up` starts everything.
+
+**€55** &nbsp;·&nbsp; [**Buy now →**](https://store.fenixkit.dev/keycloak-redis)
+
+</td>
 </tr>
 </table>
 
-> 🔥 **Launch offer** — Use code `FIRSTXPEOPLE` for **€15 off** either kit at checkout.
+> 🔥 **Launch offer** — Use code `FIRSTXPEOPLE` for **€15 off** any kit at checkout.
 
 [fenixkit.dev →](https://fenixkit.dev)
 
@@ -60,7 +84,7 @@ Everything in the MongoDB kit, plus Keycloak JWT authentication pre-configured v
 var stack = new[]
 {
     "C#",  ".NET 8 Minimal API",  "MongoDB",
-    "Keycloak",  "Docker",  "ErrorOr",  "Swagger / OpenAPI",
+    "Redis",  "Keycloak",  "Docker",  "ErrorOr",  "Swagger / OpenAPI",
 };
 ```
 
@@ -72,3 +96,5 @@ var stack = new[]
 
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/fenixkitdev) [![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white)](https://tiktok.com/@fenixkitdev) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:fenixkitdev@gmail.com) 
 </div>
+
+---
