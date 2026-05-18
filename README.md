@@ -25,7 +25,7 @@ That became **FenixKit** — .NET 8 LTS and .NET 10 Minimal API starter kits. Pi
 <tr>
 <td width="50%" valign="top">
 
-### 🗃️ MongoDB
+### [🗃️ MongoDB](https://github.com/fenixkitdev/FenixKit-MongoDB)
 
 **.NET 8 / .NET 10 Minimal API Starter Kit — MongoDB**
 
@@ -36,7 +36,7 @@ The clean foundation. MongoDB persistence, ErrorOr result pattern, dual paginati
 </td>
 <td width="50%" valign="top">
 
-### ⚡ MongoDB + Redis
+### [⚡ MongoDB + Redis](https://github.com/fenixkitdev/FenixKit-MongoDB-Redis)
 
 **.NET 8 / .NET 10 Minimal API Starter Kit — MongoDB + Redis**
 
@@ -49,7 +49,7 @@ Everything in the MongoDB kit, plus a full tag-based Redis cache-aside layer. Fa
 <tr>
 <td width="50%" valign="top">
 
-### 🔐 MongoDB + Keycloak
+### [🔐 MongoDB + Keycloak](https://github.com/fenixkitdev/FenixKit-MongoDB-Keycloak)
 
 **.NET 8 / .NET 10 Minimal API Starter Kit — MongoDB + Keycloak**
 
@@ -60,7 +60,7 @@ Everything in the MongoDB kit, plus Keycloak JWT authentication pre-configured v
 </td>
 <td width="50%" valign="top">
 
-### 🔐 ⚡ MongoDB + Keycloak + Redis
+### [🔐 ⚡ MongoDB + Keycloak + Redis](https://github.com/fenixkitdev/FenixKit-MongoDB-Keycloak-Redis)
 
 **.NET 8 / .NET 10 Minimal API Starter Kit — MongoDB + Keycloak + Redis**
 
