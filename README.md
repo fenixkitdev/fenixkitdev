@@ -15,7 +15,7 @@ I've been building software professionally for a few years and my stack of choic
 
 One thing I noticed early on: a lot of the time writing a new API is spent wiring up the same infrastructure decisions. MongoDB setup, result patterns, pagination, error handling, auth, caching — it's not hard, but it's slow, repetitive, and easy to get subtly wrong. So I started building **templates that cut that work out entirely**.
 
-That became **FenixKit** — .NET 8 Minimal API starter kits you clone, configure, and ship.
+That became **FenixKit** — .NET 8 LTS and .NET 10 Minimal API starter kits. Pick the runtime at checkout — same price either way.
 
 ---
 
@@ -27,7 +27,7 @@ That became **FenixKit** — .NET 8 Minimal API starter kits you clone, configur
 
 ### 🗃️ MongoDB
 
-**.NET 8 Minimal API Starter Kit — MongoDB**
+**.NET 8 / .NET 10 Minimal API Starter Kit — MongoDB**
 
 The clean foundation. MongoDB persistence, ErrorOr result pattern, dual pagination, hook-based repository, global error handling, health checks, and Docker Compose — all pre-wired.
 
@@ -38,7 +38,7 @@ The clean foundation. MongoDB persistence, ErrorOr result pattern, dual paginati
 
 ### ⚡ MongoDB + Redis
 
-**.NET 8 Minimal API Starter Kit — MongoDB + Redis**
+**.NET 8 / .NET 10 Minimal API Starter Kit — MongoDB + Redis**
 
 Everything in the MongoDB kit, plus a full tag-based Redis cache-aside layer. FailOpen by default — Redis down means a cache miss, not a 500. Works with Redis 8 and Valkey 7.2.
 
@@ -51,7 +51,7 @@ Everything in the MongoDB kit, plus a full tag-based Redis cache-aside layer. Fa
 
 ### 🔐 MongoDB + Keycloak
 
-**.NET 8 Minimal API Starter Kit — MongoDB + Keycloak**
+**.NET 8 / .NET 10 Minimal API Starter Kit — MongoDB + Keycloak**
 
 Everything in the MongoDB kit, plus Keycloak JWT authentication pre-configured via OIDC. Role-based policies, OAuth2 PKCE in Swagger, and a pre-built realm — working from the first `docker compose up`.
 
@@ -62,7 +62,7 @@ Everything in the MongoDB kit, plus Keycloak JWT authentication pre-configured v
 
 ### 🔐 ⚡ MongoDB + Keycloak + Redis
 
-**.NET 8 Minimal API Starter Kit — MongoDB + Keycloak + Redis**
+**.NET 8 / .NET 10 Minimal API Starter Kit — MongoDB + Keycloak + Redis**
 
 The full stack. Auth, cache, and persistence — all pre-wired and ready. Keycloak JWT, tag-based Redis invalidation, and a pre-built realm. One `docker compose up` starts everything.
 
@@ -83,7 +83,7 @@ The full stack. Auth, cache, and persistence — all pre-wired and ready. Keyclo
 ```csharp
 var stack = new[]
 {
-    "C#",  ".NET 8 Minimal API",  "MongoDB",
+    "C#",  ".NET 8 LTS",  ".NET 10",  "Minimal API",  "MongoDB",
     "Redis",  "Keycloak",  "Docker",  "ErrorOr",  "Swagger / OpenAPI",
 };
 ```
