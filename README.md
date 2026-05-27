@@ -96,7 +96,7 @@ Auth, cache, and persistence — all pre-wired and ready. Keycloak JWT, tag-base
 ```csharp
 var stack = new[]
 {
-    "C#",  ".NET 8 LTS",  ".NET 10",  "Minimal API",  "MongoDB",
+    "C#",  ".NET 8",  ".NET 10",  "Minimal API",  "MongoDB",
     "Redis",  "Keycloak",  "Garage S3",  "Docker",  "ErrorOr",  "Swagger / OpenAPI",
 };
 ```
