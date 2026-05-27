@@ -64,9 +64,22 @@ Everything in the MongoDB kit, plus Keycloak JWT authentication pre-configured v
 
 **.NET 8 / .NET 10 Minimal API Starter Kit — MongoDB + Keycloak + Redis**
 
-The full stack. Auth, cache, and persistence — all pre-wired and ready. Keycloak JWT, tag-based Redis invalidation, and a pre-built realm. One `docker compose up` starts everything.
+Auth, cache, and persistence — all pre-wired and ready. Keycloak JWT, tag-based Redis invalidation, and a pre-built realm. One `docker compose up` starts everything.
 
 **€55** &nbsp;·&nbsp; [**Buy now →**](https://fenixkit.dev)
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+### [🔐 ⚡ 🪣 MongoDB + Keycloak + Redis + Garage](https://github.com/fenixkitdev/FenixKit-MongoDB-Keycloak-Redis-Garage)
+
+**.NET 8 / .NET 10 Minimal API Starter Kit — MongoDB + Keycloak + Redis + Garage**
+
+ Auth, cache, persistence, plus a full S3 file storage layer — three access modes (Public, PresignedUrl, Proxy), per-bucket configuration, a `FileAttachment` repository that attaches files to any domain entity, and presigned URL caching tied to URL expiry. Works with Garage, AWS S3, or any S3-compatible backend — only config changes.
+
+**€65** &nbsp;·&nbsp; [**Buy now →**](https://fenixkit.dev)
 
 </td>
 </tr>
@@ -84,7 +97,7 @@ The full stack. Auth, cache, and persistence — all pre-wired and ready. Keyclo
 var stack = new[]
 {
     "C#",  ".NET 8 LTS",  ".NET 10",  "Minimal API",  "MongoDB",
-    "Redis",  "Keycloak",  "Docker",  "ErrorOr",  "Swagger / OpenAPI",
+    "Redis",  "Keycloak",  "Garage S3",  "Docker",  "ErrorOr",  "Swagger / OpenAPI",
 };
 ```
 
