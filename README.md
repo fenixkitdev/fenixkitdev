@@ -25,61 +25,72 @@ That became **FenixKit** — .NET 8 LTS and .NET 10 Minimal API starter kits. Pi
 <tr>
 <td width="50%" valign="top">
 
-### [🗃️ MongoDB](https://github.com/fenixkitdev/FenixKit-MongoDB)
+### [🟢 SPARK](https://github.com/fenixkitdev/FenixKit-SPARK)
 
-**.NET 8 / .NET 10 Minimal API Starter Kit — MongoDB**
+**.NET 8 / .NET 10 — MongoDB Minimal API**
 
-The clean foundation. MongoDB persistence, ErrorOr result pattern, dual pagination, hook-based repository, global error handling, health checks, and Docker Compose — all pre-wired.
+The clean foundation. MongoDB persistence, ErrorOr result pattern, dual pagination (offset + cursor), hook-based repository, global RFC 7807 error handling, health checks, and Docker Compose — all pre-wired.
 
-**€35** &nbsp;·&nbsp; [**Buy now →**](https://fenixkit.dev)
+**€35** &nbsp;·&nbsp; [**Buy now →**](https://fenixkit.dev/kits/spark/)
 
 </td>
 <td width="50%" valign="top">
 
-### [⚡ MongoDB + Redis](https://github.com/fenixkitdev/FenixKit-MongoDB-Redis)
+### [🔵 GUARD](https://github.com/fenixkitdev/FenixKit-GUARD)
 
-**.NET 8 / .NET 10 Minimal API Starter Kit — MongoDB + Redis**
+**.NET 8 / .NET 10 — MongoDB + Keycloak**
 
-Everything in the MongoDB kit, plus a full tag-based Redis cache-aside layer. FailOpen by default — Redis down means a cache miss, not a 500. Works with Redis 8 and Valkey 7.2.
+Everything in SPARK, plus Keycloak JWT authentication pre-configured via OIDC. Role-based policies, OAuth2 PKCE in Swagger, and a pre-built realm — working from the first `docker compose up`.
 
-**€45** &nbsp;·&nbsp; [**Buy now →**](https://fenixkit.dev)
+**€45** &nbsp;·&nbsp; [**Buy now →**](https://fenixkit.dev/kits/guard/)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### [🔐 MongoDB + Keycloak](https://github.com/fenixkitdev/FenixKit-MongoDB-Keycloak)
+### [🟡 RAPID](https://github.com/fenixkitdev/FenixKit-RAPID)
 
-**.NET 8 / .NET 10 Minimal API Starter Kit — MongoDB + Keycloak**
+**.NET 8 / .NET 10 — MongoDB + Redis**
 
-Everything in the MongoDB kit, plus Keycloak JWT authentication pre-configured via OIDC. Role-based policies, OAuth2 PKCE in Swagger, and a pre-built realm — working from the first `docker compose up`.
+Everything in SPARK, plus a full tag-based Redis cache-aside layer. FailOpen by default — Redis down means a cache miss, not a 500. Works with Redis 8 and Valkey 7.2. No Keycloak.
 
-**€45** &nbsp;·&nbsp; [**Buy now →**](https://fenixkit.dev)
+**€45** &nbsp;·&nbsp; [**Buy now →**](https://fenixkit.dev/kits/rapid/)
 
 </td>
 <td width="50%" valign="top">
 
-### [🔐 ⚡ MongoDB + Keycloak + Redis](https://github.com/fenixkitdev/FenixKit-MongoDB-Keycloak-Redis)
+### [🟣 FLICK](https://github.com/fenixkitdev/FenixKit-FLICK)
 
-**.NET 8 / .NET 10 Minimal API Starter Kit — MongoDB + Keycloak + Redis**
+**.NET 8 / .NET 10 — MongoDB + Keycloak + Redis**
 
-Auth, cache, and persistence — all pre-wired and ready. Keycloak JWT, tag-based Redis invalidation, and a pre-built realm. One `docker compose up` starts everything.
+Auth, cache, and persistence — all pre-wired. Keycloak JWT, tag-based Redis invalidation, and a pre-built realm. One `docker compose up` starts everything.
 
-**€55** &nbsp;·&nbsp; [**Buy now →**](https://fenixkit.dev)
+**€55** &nbsp;·&nbsp; [**Buy now →**](https://fenixkit.dev/kits/flick/)
 
 </td>
 </tr>
 <tr>
-<td colspan="2" valign="top">
+<td width="50%" valign="top">
 
-### [🔐 ⚡ 🪣 MongoDB + Keycloak + Redis + Garage](https://github.com/fenixkitdev/FenixKit-MongoDB-Keycloak-Redis-Garage)
+### [🔴 UPLOADS](https://github.com/fenixkitdev/FenixKit-UPLOADS)
 
-**.NET 8 / .NET 10 Minimal API Starter Kit — MongoDB + Keycloak + Redis + Garage**
+**.NET 8 / .NET 10 — MongoDB + Keycloak + Redis + S3**
 
- Auth, cache, persistence, plus a full S3 file storage layer — three access modes (Public, PresignedUrl, Proxy), per-bucket configuration, a `FileAttachment` repository that attaches files to any domain entity, and presigned URL caching tied to URL expiry. Works with Garage, AWS S3, or any S3-compatible backend — only config changes.
+Everything in FLICK, plus a full S3 file storage layer — three access modes (Public, PresignedUrl, Proxy), per-bucket configuration, a `FileAttachment` repository, and presigned URL caching tied to URL expiry. Works with Garage, AWS S3, or any S3-compatible backend.
 
-**€65** &nbsp;·&nbsp; [**Buy now →**](https://fenixkit.dev)
+**€65** &nbsp;·&nbsp; [**Buy now →**](https://fenixkit.dev/kits/uploads/)
+
+</td>
+<td width="50%" valign="top">
+
+### [🔥 EMBER](https://github.com/fenixkitdev/FenixKit-EMBER)
+
+**.NET 10 — MongoDB + Keycloak + Redis + S3 + Hangfire**
+
+Everything in UPLOADS, plus Hangfire background jobs backed by MongoDB. Fire-and-forget, delayed, and recurring CRON jobs — priority queues, configurable worker pools, live dashboard at `/jobs`, auto-retry with exponential back-off.
+
+**€75** &nbsp;·&nbsp; [**Buy now →**](https://fenixkit.dev/kits/ember/)
 
 </td>
 </tr>
@@ -97,7 +108,7 @@ Auth, cache, and persistence — all pre-wired and ready. Keycloak JWT, tag-base
 var stack = new[]
 {
     "C#",  ".NET 8",  ".NET 10",  "Minimal API",  "MongoDB",
-    "Redis",  "Keycloak",  "Garage S3",  "Docker",  "ErrorOr",  "Swagger / OpenAPI",
+    "Redis",  "Keycloak",  "Garage S3",  "Hangfire",  "Docker",  "ErrorOr",  "Swagger / OpenAPI",
 };
 ```
 
@@ -107,7 +118,7 @@ var stack = new[]
 
 *Always looking for the next interesting technology to pull into the stack.*
 
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/fenixkitdev) [![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white)](https://tiktok.com/@fenixkitdev) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:fenixkitdev@gmail.com) [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/Fenixkitdev) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/FenixKitdev) 
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/fenixkitdev) [![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white)](https://tiktok.com/@fenixkitdev) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:fenixkitdev@gmail.com) [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/Fenixkitdev) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/FenixKitdev)
 </div>
 
 ---
