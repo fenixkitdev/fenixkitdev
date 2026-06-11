@@ -25,7 +25,7 @@ That became **FenixKit** — .NET 8 LTS and .NET 10 Minimal API starter kits. Pi
 <tr>
 <td width="50%" valign="top">
 
-### [🟢 SPARK](https://github.com/fenixkitdev/FenixKit-SPARK)
+### [🟢 SPARK](https://github.com/fenixkitdev/FenixKit-MongoDB)
 
 **.NET 8 / .NET 10 — MongoDB Minimal API**
 
@@ -36,7 +36,7 @@ The clean foundation. MongoDB persistence, ErrorOr result pattern, dual paginati
 </td>
 <td width="50%" valign="top">
 
-### [🔵 GUARD](https://github.com/fenixkitdev/FenixKit-GUARD)
+### [🔵 GUARD](https://github.com/fenixkitdev/FenixKit-MongoDB-Keycloak)
 
 **.NET 8 / .NET 10 — MongoDB + Keycloak**
 
@@ -49,7 +49,7 @@ Everything in SPARK, plus Keycloak JWT authentication pre-configured via OIDC. R
 <tr>
 <td width="50%" valign="top">
 
-### [🟡 RAPID](https://github.com/fenixkitdev/FenixKit-RAPID)
+### [🟡 RAPID](https://github.com/fenixkitdev/FenixKit-MongoDB-Redis)
 
 **.NET 8 / .NET 10 — MongoDB + Redis**
 
@@ -60,7 +60,7 @@ Everything in SPARK, plus a full tag-based Redis cache-aside layer. FailOpen by 
 </td>
 <td width="50%" valign="top">
 
-### [🟣 FLICK](https://github.com/fenixkitdev/FenixKit-FLICK)
+### [🟣 FLICK](https://github.com/fenixkitdev/FenixKit-MongoDB-Keycloak-Redis)
 
 **.NET 8 / .NET 10 — MongoDB + Keycloak + Redis**
 
@@ -73,7 +73,7 @@ Auth, cache, and persistence — all pre-wired. Keycloak JWT, tag-based Redis in
 <tr>
 <td width="50%" valign="top">
 
-### [🔴 UPLOADS](https://github.com/fenixkitdev/FenixKit-UPLOADS)
+### [🔴 UPLOADS](https://github.com/fenixkitdev/FenixKit-MongoDB-Keycloak-Redis-Garage)
 
 **.NET 8 / .NET 10 — MongoDB + Keycloak + Redis + S3**
 
@@ -84,7 +84,7 @@ Everything in FLICK, plus a full S3 file storage layer — three access modes (P
 </td>
 <td width="50%" valign="top">
 
-### [🔥 EMBER](https://github.com/fenixkitdev/FenixKit-EMBER)
+### [🔥 EMBER](https://github.com/fenixkitdev/FenixKit-MongoDB-Keycloak-Redis-Garage-Hangfire)
 
 **.NET 10 — MongoDB + Keycloak + Redis + S3 + Hangfire**
 
